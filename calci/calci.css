@@ -1,0 +1,57 @@
+ @import url('https://fonts.googleapis.com/css2?family=Sofia&display=swap');
+ html,body{
+    font-family: 'sofia',sans-serif;
+ }
+
+.text-center{
+    text-align: center;
+    color: blue;
+
+}
+
+.bg-gray{
+    background-color: lightblue;
+}
+
+.mrgn-A{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+ flex-direction: column;   
+} 
+
+.items-center{
+    align-items: center;
+}
+ 
+.row{
+     margin: 10px 0px;
+}
+
+.button{
+    padding: 20px;
+    margin: 3px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 2px solid black;
+    box-shadow: 10px;
+    width: 66px;
+    color: blue;
+    background-color: aqua;
+}
+
+.row input{
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 19px;
+    width: 295px;
+    background-color: aqua;
+    color: blue;
+}
